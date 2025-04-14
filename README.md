@@ -2,7 +2,7 @@
 
 ## Overview
 
-This GitHub project demonstrates an approach for real-time anomaly detection in lithium-ion batteries using stream reasoning and a structured knowledge base (ontology). The system processes continuous data streams from simulated battery sensors, reasons over this data in conjunction with an ontology defining battery components, their properties, and potential anomalies, and identifies abnormal behaviors like significant temperature differences between cells combined with high current and state-of-charge (SOC).
+This GitHub project demonstrates an approach for  anomaly detection in lithium-ion batteries using stream reasoning and a structured knowledge base (ontology). The system processes continuous data streams from simulated battery sensors, reasons over this data in conjunction with an ontology defining battery components, their properties, and potential anomalies, and identifies abnormal behaviors like significant temperature differences between cells combined with high current and state-of-charge (SOC).
 
 The core of the project utilizes the C-SPARQL engine to execute continuous queries over the incoming sensor data, which is modeled as RDF streams. The `Anomaly Ontology` (defined in `onto_anomaly.owl`) provides the semantic context for understanding the sensor data and defining the conditions for anomaly detection.
 
