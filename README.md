@@ -40,7 +40,7 @@ To run this project, you will need:
     ```
 
 2.  **Review Project Dependencies:**
-    Ensure that the `pom.xml` file (if present) contains the necessary dependencies for the C-SPARQL engine, OWL API, Log4j, SLF4j, and Apache POI. Maven should automatically download these when building the project.
+    Ensure that the `pom.xml` file  contains the necessary dependencies for the C-SPARQL engine, OWL API, Log4j, SLF4j, and Apache POI. Maven should automatically download these when building the project.
 
 3.  **Configure Log4j:**
     Verify that the `log4j_configuration/csparql_readyToGoPack_log4j.properties` file is correctly configured for the desired logging level and output.
